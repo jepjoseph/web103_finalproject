@@ -2,7 +2,8 @@
 
 CodePath WEB103 Final Project
 
-Designed and developed by: [your names here]
+Designed and developed by: 
+Jean Pierre Joseph
 
 🔗 Link to deployed app:
 

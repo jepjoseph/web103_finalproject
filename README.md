@@ -3,7 +3,7 @@
 CodePath WEB103 Final Project
 
 Designed and developed by: 
-Jean Pierre Joseph
+Jean Pierre Joseph, Paola Cuevas
 
 🔗 Link to deployed app:
 

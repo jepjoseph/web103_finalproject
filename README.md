@@ -11,39 +11,53 @@ Jean Pierre Joseph, Paola Cuevas
 
 ### Description and Purpose
 
-[text goes here]
+CraftSpot is a community exploration platform designed to help creatives and locals discover independent art businesses, craft supply shops, cozy cafes, indie bookstores, or hands-on creative workshops. Many unique small businesses and local craft gatherings lack high-visibility marketing channels and get buried by large commercial chains on conventional map services. CraftSpot solves this by providing a curated directory where users can search, explore, and filter hidden gems by activity type, distance, and budget tier ($ to $$$). Users can view comprehensive details about each location or event, save their favorite spots to custom lists, and submit community recommendations for new creative spaces.
 
 ### Inspiration
 
-[text goes here]
+As makers and art enthusiasts, finding affordable materials and local creative workshops often requires digging through fragmented social media posts, scattered forums, or word-of-mouth recommendations. We wanted to build a centralized, community-driven hub that bridges the gap between independent artisans and local residents looking for creative outlets. By spotlighting small, independent businesses—from pottery studios and secondhand craft supply stores to indie bookstores hosting open mic nights—CraftSpot fosters local creative economies and makes hands-on arts accessible to everyone.
 
 ## Tech Stack
 
-Frontend:
+Frontend: React, React Router, HTML5, CSS3, JavaScript (ES6+)
 
-Backend:
+Backend: Node.js, Express.js, PostgreSQL, Render
 
 ## Features
 
-### [Name of Feature 1]
+### Multi-Criteria Search & Filter
 
-[short description goes here]
-
-[gif goes here]
-
-### [Name of Feature 2]
-
-[short description goes here]
+Users can dynamically filter local businesses and creative events by activity type, distance/radius, and budget tier ($ to $$$) without leaving the discovery dashboard.
 
 [gif goes here]
 
-### [Name of Feature 3]
+### Interactive Detail View with Dynamic Routing
 
-[short description goes here]
+Each business and event features a dedicated dynamic detail page showcasing operating hours, full address, pricing tiers, accepted payment methods, and an overview of upcoming workshops or supplies offered.
 
 [gif goes here]
 
-### [ADDITIONAL FEATURES GO HERE - ADD ALL FEATURES HERE IN THE FORMAT ABOVE; you will check these off and add gifs as you complete them]
+### Community Spot Submission & Management
+
+Business owners and event organizers have access to a dedicated management interface where they can register new events, edit existing details , and delete obsolete events or venue pages.
+
+[gif goes here]
+
+### Categorization & Tagging via Join Table
+
+Venues and events can belong to multiple categories and tags, making cross-discipline spaces easily discoverable.
+
+[gif goes here]
+
+### Quick-View Slide-Out Modal
+
+Users can click on any event card in the catalog to launch a slide-out modal pane containing an instant snapshot of the business, its tags, and quick-action links without navigating away from the discovery view.
+
+[gif goes here]
+
+### Owner Form & Input Data Validation
+
+All submission and edit forms for organizers enforce strict client and server-side data validation before updating the database, requiring valid external URLs, structured address inputs, standardized budget ranges, and required contact details.
 
 ## Installation Instructions
 

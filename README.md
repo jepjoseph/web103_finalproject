@@ -1,4 +1,4 @@
-# [your app name here]
+# Local Bloom
 
 CodePath WEB103 Final Project
 

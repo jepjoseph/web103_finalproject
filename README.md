@@ -11,7 +11,7 @@ Jean Pierre Joseph, Paola Cuevas
 
 ### Description and Purpose
 
-Local Bloom is a community exploration platform designed to help creatives and locals discover independent art businesses, craft supply shops, cozy cafes, indie bookstores, or hands-on creative workshops. Many unique small businesses and local craft gatherings lack high-visibility marketing channels and get buried by large commercial chains on conventional map services. CraftSpot solves this by providing a curated directory where users can search, explore, and filter hidden gems by activity type, distance, and budget tier ($ to $$$). Users can view comprehensive details about each location or event, save their favorite spots to custom lists, and submit community recommendations for new creative spaces.
+Local Bloom is a community exploration platform designed to help creatives and locals discover independent art businesses, craft supply shops, cozy cafes, indie bookstores, or hands-on creative workshops. Many unique small businesses and local craft gatherings lack high-visibility marketing channels and get buried by large commercial chains on conventional map services. CraftSpot solves this by providing a curated directory where users can search, explore, and filter hidden gems by activity type, distance, and budget tier ($ to $$$). Users can view comprehensive details about each location or event, while business owners and event organizers can list their venues and post upcoming workshops.
 
 ### Inspiration
 
@@ -33,7 +33,7 @@ Users can dynamically filter local businesses and creative events by activity ty
 
 ### Interactive Detail View with Dynamic Routing
 
-Each business and event features a dedicated dynamic detail page showcasing operating hours, full address, pricing tiers, accepted payment methods, and an overview of upcoming workshops or supplies offered.
+Each business and event features a dedicated dynamic detail page showcasing operating hours, full address, pricing tiers, and an overview of upcoming workshops or supplies offered.
 
 [gif goes here]
 
@@ -45,7 +45,7 @@ Business owners and event organizers have access to a dedicated management inter
 
 ### Categorization & Tagging via Join Table
 
-Venues and events can belong to multiple categories and tags, making cross-discipline spaces easily discoverable.
+Each event belongs to one activity type and can carry multiple descriptive tags (linked through a join table), making cross-discipline events easily discoverable.
 
 [gif goes here]
 
@@ -57,7 +57,7 @@ Users can click on any event card in the catalog to launch a slide-out modal pan
 
 ### Owner Form & Input Data Validation
 
-All submission and edit forms for organizers enforce strict client and server-side data validation before updating the database, requiring valid external URLs, structured address inputs, standardized budget ranges, and required contact details.
+All submission and edit forms for organizers enforce strict client and server-side data validation before updating the database, requiring valid external URLs, structured address inputs, and standardized budget ranges.
 
 ## Installation Instructions
 
